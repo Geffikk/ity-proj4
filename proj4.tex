@@ -1,0 +1,72 @@
+\documentclass[a4paper, 11pt]{article}
+
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm, top=3cm, text={17cm, 24cm}]{geometry}
+\usepackage{times}
+\usepackage[unicode]{hyperref}
+\hypersetup{colorlinks = true, hypertexnames = false}
+\usepackage{microtype}
+
+%================================================== UVOD ==========================================================%
+
+\begin{document}
+    \begin{titlepage}
+        \begin{center}
+            {\Huge \textsc{Vysoké učení technické v~Brně}} \\
+            \vspace{\stretch{0.015}}
+            {\huge \textsc
+                {Fakulta informačních technologií}}\\
+            
+            \vspace{\stretch{0.4}}
+            \LARGE
+            {Typografie a~publikování\,--\,4.~projekt} \\
+            \Huge{
+            Bibliografická citácia}\\
+            \vspace{\stretch{0.6}}
+        \end{center}
+    
+        {\Large {\today \hfill Maroš Geffert (xgeffe00)}}
+    \end{titlepage}
+
+\section{Prečo sa učiť Matematiku}
+
+\subsection{Definícia}
+Matematika je definovaná ako štúdium zákonitosti štruktúry, zmeny a~priestoru. Z~formálneho hľadiska je matematika skúmanie axiomaticky definovaných formálnych štruktúr použitím logiky a~matematického označenia~\cite{kuvrina2011matematika}.
+
+\subsection{Matematické disciplíny}
+Uvedený zoznam matematických disciplín vonkoncom nemožno považovať za~úplný. Záujemcov o~naozaj hlboký pohľad do~členenia matematických disciplín a~ich poddisciplín možno odkázať na~AMS Mathematics Subject Classification~\cite{landau1987moments}.
+\begin{itemize}
+		\item Teória matematické logiky, teórie množin, číselné množiny
+		\item Mocniny, odmnocniny, algebraické výrazy, algebraické rovnice a~nerovnice, funkcie
+		\item Goniometria, elementárna geometria
+		\item Kombinatorika, pravdepodobnosť, štatistika, postupnosti a~rady
+		\item Základy diferenciálneho počtu a~integrálneho počtu
+\end{itemize}
+Viac o~týchto disciplínach sa môžte dočítať tu~\cite{keilova2016uvod},~\cite{kolavr2014elektronicka}.
+
+\subsection{Prečo sa učiť matematiku}
+Matematika učí kritickému mysleniu, tomu, že tvrdenia treba dokazovať. Matematika už dokázala nespočetne veľa javov ktoré si ľudia v minulosti nevedeli ani predstaviť. Niektoré si predstavíme v~tomto dokumente.\\
+Potrobnejšie informácie o~tom, prečo sa učiť matematiku si môžete prečítať tu~\cite{dudley1966convergence}.
+
+\subsubsection{\small{Simultánne rovnice}}
+Simultánne modely rovníc sú typom štatistického modelu vo~forme súboru lineárnych simultánnych rovníc. Často sa používajú v~ekonometrii. Tieto modely môžeme riešit pomocou systemu rovnic ako je napríklad generalizovaná metóda momentov (GMM) a~odhad inštrumentálnych premenných (IV)~\cite{smith}, ~\cite{todhunter}.
+
+\subsection{Matematické materiály na internete}
+Kvalitných komplexných webových stránok, na~ktorých je spracováné viac matematických tém naraz je na~internete len málo. Hlavný prínos kvalitných  matematických materiálov dostupných na~internete spočívá v~tom, že~oproti klasickým učebním pomôckam ako su napr. tabule, poskytujú vďaka dynamickým a~interaktivním prvkom vyššiu názornosť. Viac informácií o~matematických materiáloch na~internete si môžete prečítať tu~\cite{robova2008webove}. 
+
+\subsection{Matematické softwary}
+Programy používané na~analýzu alebo výpočet numerických, symbolických alebo geometrických údajov.
+\begin{itemize}
+    \item \textbf{Matlab} - Programové prostredie a~skriptovací programovací jazyk pre~vedecko-technické výpočty. Detailnejšie je popísaný v~\cite{ANDERSSON20001}.
+    \item \textbf{Maple} - Komerčný program určený pre~algebrické výpočty. Je založený na~malom jadre napísanom v~jazyku C, ktoré vytvára jazyk Maple. Detailnejšie je popísaný v~\cite{chvatalova2007maple}.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Citace %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\bibliographystyle{czechiso}
+\renewcommand{\refname}{Literatúra}
+\bibliography{proj4.bib}
+
+\end{document}
